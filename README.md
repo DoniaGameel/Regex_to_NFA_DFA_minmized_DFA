@@ -11,17 +11,30 @@ Additionally, we implement a program capable of converting an NFA into a minimiz
 The input for this program is a file containing the JSON representation of the NFA, formatted as follows:
 
 {
+
   "startingState": "S0",
+  
   "S0": {
+  
     "isTerminatingState": false,
+    
     "A": "S1",
+    
     "B": "S0"
+    
   },
+
+  
   "S1": {
+  
     "isTerminatingState": true,
+    
     "A": "S1",
+    
     "B": "S1"
+    
   }
+  
 }
 
 The output is a JSON file representing the minimized DFA states and transitions, following the same format as the input.
