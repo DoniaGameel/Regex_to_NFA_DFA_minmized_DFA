@@ -30,4 +30,5 @@ Furthermore, we generate an image illustrating the graph of the minimized DFA us
 
 ## Contributors:
 [Donia Gameel](https://github.com/DoniaGameel)
+
 [Heba Ashraf](https://github.com/hebaashraf21)
